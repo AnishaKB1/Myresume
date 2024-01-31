@@ -1,0 +1,48 @@
+
+/*  Navbar.jsx */
+
+#anisha {
+    font-size: 24px; /* Increase the font size for a more attractive heading */
+    font-family: 'Lora', serif;
+    color: rgb(68, 68, 68);
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  
+  .nav {
+    display: flex; /* Arrange buttons in a horizontal line */
+    align-items: center; /* Center align buttons vertically */
+  }
+  
+  #ovalButton {
+    color: rgb(248, 250, 244);
+   
+    font-size: large;
+    margin-right: 20px; /* Add some spacing between buttons */
+    width: 90px;
+    height: 40px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+  }
+  
+  #ovalButton:hover {
+    color:white !important;
+    background-color:rgb(54, 54, 54);
+  }
+   
+  #resume:hover{
+    color:white !important;
+  }
+  
+  #menu-appbar a {
+    color: black; /* Set the text color for menu items */
+    text-decoration: none;
+  }
+  
+  #anisha h5 {
+    margin-right: 20px; /* Add some spacing to the right of the heading */
+  }
+  
+  
+  /*  NAvbar.jsx */
